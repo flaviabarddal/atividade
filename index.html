@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loja de Cupcakes</title>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="script.js">
+
+</head>
+<body>
+  <header>
+    <h1>Loja de Cupcakes</h1>
+    
+        <nav>
+          <a href="index.html"></a>
+          <img src="inicio.png" alt="inicio"></a>
+
+          <a href="login.html">
+            <img src="login.png" alt="Login"></a>
+          <a href="cadastro.html">
+    
+            <img src="cadastro.png" alt="Cadastro">
+          </a>
+          <a href="carrinho.html">
+            <img src="carrinho.png" alt="Carrinho"> (<span class="carrinho-count">0</span>)
+          </a>
+        </nav>
+  </header>
+
+  <main>
+    <section class="produtos">
+      <h2>Produtos</h2>
+      <div class="produto">
+        <img src="cupcake1.jpg" alt="Cupcake de Chocolate">
+        <h3>Cupcake de Chocolate</h3>
+        <p>R$ 15,00</p>
+        <p>Cupcake de massa de chocolate com ganache de chocolate meio amargo.</p>
+        <button onclick="adicionarAoCarrinho('Cupcake de Chocolate', 15)">Adicionar ao Carrinho</button>
+      </div>
+      <div class="produto">
+        <img src="cupcake2.jpg" alt="Cupcake de Morango">
+        <h3>Cupcake de Morango</h3>
+        <p>R$ 18,00</p>
+        <p>Cupcake de massa de baunilha, recheado com creme de morango</p>
+        <button onclick="adicionarAoCarrinho('Cupcake de Morango', 18)">Adicionar ao Carrinho</button>
+      </div>
+      <div class="produto">
+        <img src="cupcake3.jpg" alt="Cupcake de Chantilly">
+        <h3>Cupcake de Chantilly</h3>
+        <p>R$ 18,00</p>
+        <p>Cupcake de massa de chocolate, recheado com creme de baunilha e confeitos.</p>
+        <button onclick="adicionarAoCarrinho('Cupcake de Chantilly', 18)">Adicionar ao Carrinho</button>
+      </div>
+      <div class="produto">
+        <img src="cupcake4.jpg" alt="Cupcake de Baunilha "> <h3>Cupcake de Baunilha</h3>
+        <p>R$ 18,00</p>
+        <p>Cupcake de massa de baunilha, recheado com creme de baunilha.</p>
+        <button onclick="adicionarAoCarrinho('Cupcake de Baunilha', 18)">Adicionar ao Carrinho</button>
+      </div>
+      <div class="produto">
+        <img src="cupcake5.jpg" alt="Cupcake de Doce de Leite ">
+        <h3>Cupcake de Doce de Leite</h3>
+        <p>R$ 18,00</p>
+        <p>Cupcake de massa de doce de leite, recheado com doce de leite. </p>
+        <button onclick="adicionarAoCarrinho('Cupcake de Doce de leite', 18)">Adicionar ao Carrinho</button>
+      </div>
+    
+
+      <h2>Produtos</h2>
+      <div class="produto">
+        <img src="cupcake6.jpg" alt="Cupcake de Avelã">
+        <h3>Cupcake de avelã</h3>
+        <p>R$ 15,00</p>
+        <p>Cupcake de chocolate com creme de Avelã. </p>
+        <button onclick="adicionarAoCarrinho('Cupcake de Avelã', 15)">Adicionar ao Carrinho</button>
+      </div>
+      <div class="produto">
+        <img src="cupcake7.jpg" alt="Cupcake de Frutas Vermelhas">
+        <h3> Frutas Vermelhas</h3>
+        <p>R$ 18,00</p>
+        <p>Cupcake de massa de baunilha, recheado com creme de frutas vermelhas</p>
+        <button onclick="adicionarAoCarrinho('', 18)">Adicionar ao Carrinho</button>
+      </div>
+      <div class="produto">
+        <img src="cupcake8.jpg" alt="Cupcake de Confetey">
+        <h3>Cupcake de Confete</h3>
+        <p>R$ 18,00</p>
+        <p>Cupcake de massa de baunilha, recheado ganache de chocolate branco.</p>
+        <button onclick="adicionarAoCarrinho('Cupcake de Chantilly', 18)">Adicionar ao Carrinho</button>
+      </div>
+      <div class="produto">
+        <img src="cupcake9.jpg" alt="Cupcake de  "> <h3>Choconinho</h3>
+        <p>R$ 18,00</p>
+        <p>Cupcake recheado com chocolate e leite ninho.</p> 
+        <button onclick="adicionarAoCarrinho('Cupcake de Choconinho', 18)">Adicionar ao Carrinho</button>
+      </div>
+      <div class="produto">
+        <img src="cupcake10.jpg" alt="Cupcake de Nutella ">
+        <h3>Cupcake de Nutella</h3>
+        <p>R$ 18,00</p>
+        <p>Cupcake recheado com Nutella.</p>
+        <button onclick="adicionarAoCarrinho('Cupcake de Nutella', 18)">Adicionar ao Carrinho</button>
+      </div>
+      <!-- Adicione mais produtos conforme necessário -->
+    </section>
+
+
+  
+  </main>
+
+  <footer>
+    <p>© 2024 Loja de Cupcakes</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
